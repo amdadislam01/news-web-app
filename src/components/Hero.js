@@ -7,7 +7,7 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center brightness-75"
         style={{
           backgroundImage:
-            "url('https://schools.firstnews.co.uk/wp-content/uploads/sites/3/2019/10/Whats-on-Front-Page-of-Newspaper-Featured-1200x900.png')",
+            "url('https://i.ibb.co.com/0jPqckh3/news.png')",
         }}
       ></div>
 
