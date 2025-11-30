@@ -1,4 +1,5 @@
-import NewsList from "@/components/NewsList/page";
+import NewsList from "@/components/NewsList";
+
 
 const News = async () => {
   const API_URL ="https://newsdata.io/api/1/news?apikey=pub_7e8ec0a7278447f29cec02a50202961d";

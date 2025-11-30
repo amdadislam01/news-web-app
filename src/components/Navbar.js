@@ -14,7 +14,7 @@ const Navbar = () => {
     { name: "News", href: "/news" },
   ];
   return (
-    <nav className="bg-linear-to-r from-green-600 to-teal-600 text-white shadow-lg">
+    <nav className="bg-linear-to-r from-green-600 to-teal-600 text-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-5 py-4 flex items-center justify-between">
         <Link href="/" className="text-2xl font-bold tracking-wide">
           NewsViewer
