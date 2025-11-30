@@ -59,7 +59,7 @@ const NewsList = ({ articles }) => {
                 <span className="text-xs text-gray-500">
                   Source:{" "}
                   <span className="font-semibold text-teal-700">
-                    {item.source_id}
+                    {item.source_id || "Unknown"}
                   </span>
                 </span>
 

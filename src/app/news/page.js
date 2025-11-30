@@ -2,10 +2,10 @@ import NewsList from "@/components/NewsList";
 
 
 const News = async () => {
-  const API_URL ="https://newsdata.io/api/1/news?apikey=pub_7e8ec0a7278447f29cec02a50202961d";
+  const API_URL ="https://newsdata.io/api/1/news?apikey=pub_285332a420614f838a0d5ce5aed5a0af";
   const res = await fetch(API_URL, { cache: "no-store" });
   const data = await res.json();
-  const articles = data.results || [];
+  const articles = Array.isArray(data.results) ? data.results : [];
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-12">

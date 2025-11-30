@@ -4,7 +4,7 @@ import React from "react";
 const NewsDetails = async ({ params }) => {
   const { id } = await params;
 
-  const res = await fetch("https://newsdata.io/api/1/news?apikey=pub_7e8ec0a7278447f29cec02a50202961d",
+  const res = await fetch("https://newsdata.io/api/1/news?apikey=pub_285332a420614f838a0d5ce5aed5a0af",
     { cache: "no-store" }
   );
 
